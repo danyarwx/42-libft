@@ -155,6 +155,7 @@ typedef struct s_list
 | `ft_lstiter(t_list *lst, void (*f)(void *))` | Apply `f` to each node’s content. |
 | `ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void*))` | Map to a new list; frees on failure. |
 
+> [!IMPORTANT]
 > **Building with bonus:** run `make bonus` (it compiles the list module and adds it to `libft.a`).
 
 ---
