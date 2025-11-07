@@ -18,7 +18,6 @@ A lightweight re-implementation of common C standard library routines plus a few
   - [Conversion & allocation helpers](#conversion--allocation-helpers)
   - [File descriptor output](#file-descriptor-output)
   - [Linked list (bonus)](#linked-list-bonus)
-- [Examples](#examples)
 - [Makefile targets](#makefile-targets)
 - [Project structure](#project-structure)
 - [License](#license)
@@ -33,8 +32,15 @@ The 42 *libft* project builds foundational C skills by re-creating a subset of `
 
 ## Build & use
 
+> [!NOTE]
+> Only the `libft/` folder is required to compile and use the library.  
+> The `assets/` folder and `README.md` are for documentation only.
+
+---
+
 ```bash
 # Build the base library
+cd 42-libft/libft
 make
 
 # Build with bonus (linked list) functions included
